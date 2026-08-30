@@ -1,16 +1,77 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+						   <style>
+							  .header{
+								  background-color:#011e29;
+								  text-align:center;
+                  color:white;
+                  height:70px;
+                  padding-top:12px;
+							  }
+                .content{
+                  display:grid;
+                  grid-template-columns: 1fr 2fr 1fr;
+                  gap: 20px;
+                }
+                .pictorial-news-section{
+                  background-color:white;
+                  text-align:center;
+                  display:flex;
+                  flex-direction:column;
+                  height:630px;
+                } 
+							   .latest-news-section{
+                  text-align:center;
+                  background-color:white;
+                  padding:10px;
+                  height:200px;
+                 }
+                 .main-article-section{
+                  text-align:center;
+                  background-color:white;
+                  padding:10px;
+                  height:250px;
+                 }
+                 body{
+                  background-color:#f5f5f5;
+                 }
+                 img{
+                  margin-left:40px;
+                 }
+						   </style>
+	</head>
+	<body>
+		<div class="header">
+			<h2>Shaw's News</h2>
+		</div>
+    <div class="content">
+		<div  class="latest-news-section">
+			<h3>Latest News Articles</h3>
+			<ul>
+				<li>Article 1</li>
+				<li>Article 2</li>
+				<li>Article 3</li>
+			</ul>
+		</div>
+		<div  class="main-article-section">
+			<h3>Main Article</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+			   elit. Sed auctor, magna eu fringilla malesuada, <br>
+			   ipsum risus eleifend est, non feugiat quam augue<br>
+			   euismod eros. Sed malesuada, magna eu fringilla<br>
+			   malesuada, ipsum risus eleifend es, non feugiat <br>
+			   quam augue euismod eros.</p>
+		</div>
+		<div  class="pictorial-news-section">
+			<h3>Pictorial News</h3>
+			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" height="170px" width="300px"><br>
+			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" height="170px" width="300px"><br>
+			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" height="170px" width="300px">
+		</div>
+    </div>
+	</body>
 </html>
